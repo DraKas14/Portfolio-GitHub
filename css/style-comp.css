@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #27262C;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+     
+    
+
+}
+
+p {
+    color: #FFFFFF;
+}
+
+.navbar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    ;
+    background-color: rgb(200, 75, 3);
+    overflow: hidden;
+    position: fixed;
+    bottom: 1;
+    width: 100%
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #f56c03;
+    color: white;
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+.container {
+    width: 2200%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    color: white;
+}
+
+.html {
+    width: 25%;
+    background-color: #ff9a03;
+}
+
+.csharp {
+    width: 20%;
+    background-color: #2196F3;
+}
+
+.PremierePro {
+    width: 40%;
+    background-color: #f44336;
+}
+
+.Anglais {
+    width: 60%;
+    background-color: #a007ff;
+}
+
+.photoshop {
+    width: 30%;
+    background-color: #6f00ff;
+}
+
+
+.fond {
+    background-size: cover;
+    height: 934px;
+    width: 100%;
+    opacity: 100%;
+}
+
+#div {
+    position: absolute;
+    bottom: 15%;
+    right: 95%;
+}
+.titre{
+    bottom: 85%;
+    position: absolute;
+    border-radius: 10px;
+    padding: 3px;
+    width: 20%;
+    right: 50%;
+    background-color: rgb(12, 117, 246);
+    
+}
