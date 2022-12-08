@@ -63,13 +63,43 @@ h1 {
 
   }
   .image{
-    height:934px;
+    height: 934px;
     width: 100%;
     background-size: cover;
+   
   
     
     
   }
+
+  .linkedin {
+    position: absolute;
+    bottom: 11px;;
+    right: 16px;
+    width: 10%;
+}
+.wakelet {
+    position: absolute;
+    bottom: 11px;
+    right: 200px;
+    width: 5%;
+}
+.github {
+    position: absolute;
+    bottom: 1%;
+    right: 16%;
+    width: 6%;
+}
+.bac{
+  position: absolute;
+  bottom: 11px;
+  right: 23%;
+  width: 5%;
+}
+  
+
+
+
    
   
 

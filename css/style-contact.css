@@ -13,16 +13,90 @@ h1 {
     text-align: center;
 }
 
-p {
+/* p {
     color: #FFFFFF;
    
-}
+} */
 
 li {
     color: #FFFFFF;
 }
 
+.pdf {
+  position: absolute;
+  width: 5%;
+  bottom: 30%;
+  right: 95px;
+  
+}
+.pdf1 {
+  position: absolute;
+  width: 5%;
+  bottom: 35%;
+  left: 18%;
+  
+}
+.pdf2 {
+  position: absolute;
+  width: 5%;
+  bottom: 62%;
+  left: 30%;
+  
+  
+}
+.txtcv{
+  text-align: center;
+    position: absolute;
+    background-color: rgb(37, 111, 240);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+    width: 5%;
+    bottom: 25%;
+    right: 5%;
+    font-family:Arial, Helvetica, sans-serif
 
+}
+.txtr1{
+  text-align: center;
+  position: absolute;
+  background-color: rgb(37, 111, 240);
+  color: white;
+  border-radius: 10px;
+  padding: 3px;
+  width: 5%;
+  bottom: 29%;
+  left: 18%;
+  font-family:Arial, Helvetica, sans-serif
+
+  
+}
+.txtr2{
+  text-align: center;
+  position: absolute;
+  background-color: rgb(37, 111, 240);
+  color: white;
+  border-radius: 10px;
+  padding: 3px;
+  width: 5%;
+  bottom: 57%;
+  left: 30%;
+  font-family:Arial, Helvetica, sans-serif
+
+  
+}
+
+
+
+
+/* .photo {
+  position: absolute;
+  width: 5%;
+  top: 13%;
+  right: 15%;
+  
+  
+} */
 
 
 .navbar {
@@ -61,33 +135,15 @@ li {
     color: white;
 }
 
-.titre {
+.experience {
     position: absolute;
-    background-color: rgb(210, 0, 70);
-    border-radius: 10px;
-    padding: 3px;
+    background-color: rgb(229, 2, 74);
+    border-radius: 15px;
+    padding: 5px;
     width: 30%;
     bottom: 85%;
-    left: 1%;
+    left: 10%;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#move {
-    margin-top: -10%;
-    z-index: 1;
-    width: 30%;
-    bottom: 65%;
-    left: 1%;
-    position:absolute;
-    background-color: rgb(46, 44, 45);
-    border-radius: 30px;
-    padding: 13px;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: left;
-    
-    
-    
-    
 }
 
 .linkedin {
@@ -96,42 +152,136 @@ li {
     right: 16px;
     width: 10%;
 }
+.wakelet {
+    position: absolute;
+    bottom: 8px;
+    right: 200px;
+    width: 5%;
+}
+.github {
+    position: absolute;
+    bottom: 12px;
+    right: 300px;
+    width: 8%;
+}
 
-.dot {
+/* .cercle {
     height: 200px;
     width: 200px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     right: 230px;
     top: 90px;
     display: inline-block;
-}
+} */
 
-.aaa{
+.fondcontact{
     z-index: -1;
     position: absolute;
     opacity: 85%;
-    height:936px;
+    height:937px;
     width: 100%;
     background-size: cover;
+    
 }
 .bac{
     position: absolute;
-    top: 35%;
-    right: 35%;
-    width: 7%;
+    top: 89%;
+    right: 23%;
+    width: 5%;
 }
-.textebac {
+#presentation{
     position: absolute;
     background-color: rgb(46, 44, 45);
     border-radius: 30px;
-    padding: 13px;
-    width: 20%;
+    padding: 20px;
+    width: 30%;
     top: 38%;
-    left: 68%;
+    left: 65%;
     font-family:Arial, Helvetica, sans-serif;
     text-align: left;
+    color: white;
    
 }
 
+*{
+    box-sizing : border-box;
+  }
+  
+  /* Set a background color */
+  body {
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: absolute;
+    max-width: 1000px;
+    margin: 0 auto;
+    right: 53%;
+    bottom: 10%;
+    top: 19%;
+    
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: white;
+    top: 0%;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  
+  .container {
+    padding: 20px 20px;
+    position: relative;
+    background-color: inherit;
+    width: 60%;
+  }
+  
+  /* le cercle sur la timeline*/
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 470px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* bloc de gauche*/
+  .left {
+    right: 10%;
+  }
+  
+  /* bloc de droite*/
+  .right {
+    left: 50%;
+  }
+  
+  
+  .right::after {
+    left: -16px;
+  }
+  
+  
+  .content {
+    padding: 50px 50px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 25px;
+    color: #27262C;
+    text-align: left;
+  }
+  
+  
